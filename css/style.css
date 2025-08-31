@@ -1,0 +1,708 @@
+@import url("reset.css");
+@import url("satoshi.css");
+@import url("clash-display.css");
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-big {
+  max-width: 1414px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #0000001a;
+}
+
+.header-logo {
+  font-family: Clash Display;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.header-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.header-link {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #726e8d;
+}
+
+.header-list {
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
+.header-nav{
+    padding: 20px 0;
+}
+
+
+/* Hero */
+
+
+.hero{
+  padding: 60px 0;
+
+}
+
+.hero-content{
+  margin-top: 200px;
+  background-color: #2A254B;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title{
+  font-family: Clash Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 32px;
+line-height: 140%;
+letter-spacing: 0%;
+color: white;
+max-width: 513px;
+margin-bottom: 41px;
+}
+
+.hero-btn{
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+padding: 16px 32px;
+background-color: #F9F9F926;
+color: white;
+}
+
+.hero-info{
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+color: white;
+max-width: 602px;
+margin-top: auto;
+
+}
+
+
+.hero-img img{
+  width: 100%;
+}
+
+.hero-text{
+  padding: 60px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.brand-title{
+font-family: Clash Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+color: #2A254B;
+margin-bottom: 51px;
+}
+
+
+.brand-power{
+  font-family: Clash Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+color: #2A254B;
+margin-top: 16px;
+margin-bottom: 8px;
+}
+
+.brand-text{
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+color: #2A254B;
+}
+
+.brand-row{
+  display: flex;
+  gap: 59px;
+}
+
+.brand{
+  padding-top: 60px;
+  padding-bottom: 86px;
+}
+
+
+.ceramics-title{
+  font-family: Clash Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #2A254B;
+margin-bottom: 33px;
+}
+  
+
+.ceramics-name{
+  font-family: Clash Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+color: #2A254B;
+margin-top: 24px;
+margin-bottom: 8px;
+}
+
+
+.ceramics-price{
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+color: #2A254B;
+
+}
+
+.ceramics-row{
+  display: flex;
+  gap: 20px;
+  padding-bottom: 35px;
+}
+
+
+.ceramics-div{
+display: flex;
+justify-content: center;
+}
+
+.ceramics-btn{
+  padding: 16px 32px;
+  color: #2A254B;
+  background-color: #F9F9F9;
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+
+.ceramics{
+  padding-top: 80px;
+  padding-bottom: 56px;
+}
+
+.products-title{
+  font-family: Clash Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+margin-bottom: 24px;
+color: #2A254B;
+
+
+}
+
+.products-row{
+  display: flex;
+  gap: 20px;
+}
+
+.products-name{
+  color: #2A254B;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-family: Clash Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+
+}
+
+.products-price{
+  color: #2A254B;
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+.products-div{
+display: flex;
+justify-content: center;
+}
+.products-btn{
+  padding: 16px 32px;
+  color: #2A254B;
+  background-color: #F9F9F9;
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+margin-top: 42px;
+}
+
+.products{
+   padding-top: 64px;
+  padding-bottom: 48px;
+}
+
+
+.benefits-title{
+  font-family: Clash Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+color: #2A254B;
+}
+  
+
+
+.benefits-piple{
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color: #2A254B;
+max-width: 470px;
+margin-top: 16px;
+}
+
+.benefits-btn{
+  padding: 16px 32px;
+  border: 1px solid #2A254B;
+  background-color: #2A254B;
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color:white;
+}
+
+.benefits-btn-haus{
+  display: flex;
+  justify-content: center;
+  background-color: #F9F9F9;
+}
+
+.benefits-input{
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 17px 32px;
+background-color: #F9F9F9;
+width: 100%;
+}
+
+.benefits{
+  background-color:#F9F9F9 ;
+  padding-top:68px ;
+  padding-bottom: 54px;
+  
+}
+
+.benefits-container{
+background-color: white;
+padding-top: 68px;
+padding-bottom: 54px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.benefits-form{
+  display: flex;
+  justify-content: center;
+  margin-top: 72px;
+  width: 472px;
+}
+
+
+
+
+.studio-content{
+  padding-top: 72px;
+  padding-bottom: 54px;
+  padding-left: 84px;
+  padding-right: 100px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+
+
+.studio-title{
+  font-family: Clash Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+color: #2A254B;
+padding-bottom: 25px;
+}
+
+.studio-text{
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #505977;
+margin-bottom:auto;
+}
+
+.studio-btn{
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+color: #2A254B;
+background-color: #F9F9F9;
+padding: 16px 32px;
+}
+
+
+
+
+
+.studio-container{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-title{
+  font-family: Clash Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+margin-bottom: 12px;
+}
+
+
+.footer-li{
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+padding-bottom: 12px;
+color: #FFFFFF;
+}
+
+.footer{
+  background-color: #2A254B;
+  padding-top: 58px;
+  
+}
+
+
+.footer-links{
+  
+}
+
+.footer-up{
+  display: flex;
+  padding-bottom: 48px;
+  justify-content:space-between;  
+}
+
+
+
+
+.footer-btn{
+  background-color: #FFFFFF;
+  color: #2A254B;
+  padding: 16px 32px;
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+
+
+.footer-input{
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background-color: #FFFFFF26;
+padding: 17px 32px;
+color: #FFFFFF;
+flex-grow: 1;
+}
+
+.footer-input::placeholder{
+  color: #FFFFFF;
+}
+
+.footer-form{
+  display: flex;
+}
+
+
+.footer-div{
+  max-width: 50%;
+}
+
+.footer-copy-right{
+  font-family: Satoshi;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(78, 77, 147, 1);
+  padding: 22px 0;
+}
+.footer-icons{
+  display: flex;
+  gap: 24px;
+}
+
+.burger-menu{
+  background-image: url("./../img/Menu.svg");
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+
+.header-burger{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media(max-width:710px){
+  .studio-container{
+    flex-direction: column;
+  }
+  .studio-content{
+    width: unset  ;
+  }
+
+
+  .footer-up{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .footer-div{
+    max-width: 100%;
+  }
+
+  .hero{
+    padding-top: 65px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+
+  .header-icons{
+    display: none;
+  }
+
+  .header-top{
+    flex-direction: row-reverse;
+  }
+
+  .header-list{
+    display: none;
+    transition: 0.3s;
+  }
+
+
+
+.hero-content{
+  margin-top: 0;
+}
+
+.ceramics-row{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.brand-row{
+  flex-wrap: wrap;
+}
+
+.studio-text{
+  margin-bottom: 64px;
+}
+
+.hero-btn{
+  order: 1;
+}
+
+.hero-info{
+  margin-bottom: 32px;
+}
+
+.ceramics{
+  padding: 0;
+}
+
+.studio-content{
+  padding: 0 15px;
+  padding-bottom: 38px;
+} 
+
+
+.benefits-form{
+  width: unset;
+}
+
+.benefits-input{
+  width: unset;
+}
+
+
+
+.hero-text{
+  padding:  40px 15px 24px  ;
+}
+
+.burger-menu{
+  display: block;
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.header-list.active{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+.header-nav{
+padding: 0;
+}
+
+
+
+.products-row{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.products-block:first-child{
+  grid-column: span 2;
+}
+
+}
+
+@media(max-width: 380px) {
+  .benefits-input,
+  .footer-input{
+    padding: 17px 10px;
+  }
+}
+
